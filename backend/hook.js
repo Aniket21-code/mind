@@ -16,7 +16,7 @@ function sendMessage() {
     var deadline = document.getElementById("deadline").value;
 
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/943919320981991524/00Tj5nxKFm37X10nDbYlQ4zs7HniCG-IbAxkupmpXePgaElmMhqfnDWCutC73YmHlPCN");
+    request.open("POST", "https://discord.com/api/webhooks/1006793041538990180/8ZFf6KOwAGehCCjaebOfMjBvsv8nFDoa9ZT8haLX65G-DloYFykVqFd-Gh5tcURkP9kG");
     request.setRequestHeader('Content-type', 'application/json');
 
     const params = {
